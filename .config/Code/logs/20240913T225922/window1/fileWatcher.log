@@ -1,0 +1,2 @@
+2024-09-13 23:00:51.214 [error] [File Watcher (parcel)] Unexpected error: inotify_add_watch on '/home/jvj/.config/Code/logs/20240909T225832/window1/exthost/output_logging_20240909T225833' failed: No such file or directory (EUNKNOWN) (path: /home/jvj)
+2024-09-13 23:00:51.214 [error] [File Watcher (universal)] inotify_add_watch on '/home/jvj/.config/Code/logs/20240909T225832/window1/exthost/output_logging_20240909T225833' failed: No such file or directory

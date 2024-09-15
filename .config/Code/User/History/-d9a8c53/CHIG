@@ -1,0 +1,22 @@
+#!/bin/sh
+
+# Wait until waybar is fully available (for tray)
+wait_waybar () {
+    # Ask dbus to check if waybar is available
+    while [[ -z $(dbus-send --session --dest=org.freedesktop.DBus --type=method_call --print-reply /org/freedesktop/DBus org.freedesktop.DBus.ListNames | grep "fr.arouillard.waybar" ) ]]
+    do 
+        sleep 0.5
+    done
+}
+
+# Per computer processus
+#gammastep& # Blue light reducer
+bluetoothctl power off # power off bluetooth at startup
+
+# Start other processus
+wait_waybar
+keepassxc&
+
+unset LC_TIME
+unset LANG
+source /etc/profile.d/locale.sh

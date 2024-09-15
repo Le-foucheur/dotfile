@@ -1,0 +1,132 @@
+external command {
+  "bin": "ocamlc",
+  "args": [
+    "--version"
+  ]
+}
+
+external command (finished) {
+  "bin": "ocamlc",
+  "args": [
+    "--version"
+  ],
+  "result": {
+    "exitCode": 0,
+    "stdout": "5.2.0\n",
+    "stderr": ""
+  }
+}
+
+external command {
+  "bin": "ocamllsp",
+  "args": [
+    "--version"
+  ]
+}
+
+process error {
+  "errno": -2,
+  "code": "ENOENT",
+  "syscall": "spawn ocamllsp",
+  "path": "ocamllsp",
+  "spawnargs": [
+    "--version"
+  ]
+}
+
+external command {
+  "bin": "/usr/local/bin/opam",
+  "args": [
+    "--version"
+  ]
+}
+
+external command {
+  "bin": "/usr/local/bin/opam",
+  "args": [
+    "--version"
+  ]
+}
+
+external command (finished) {
+  "bin": "ocamllsp",
+  "args": [
+    "--version"
+  ],
+  "result": {
+    "exitCode": -2,
+    "stdout": "",
+    "stderr": ""
+  }
+}
+
+external command (finished) {
+  "bin": "/usr/local/bin/opam",
+  "args": [
+    "--version"
+  ],
+  "result": {
+    "exitCode": 0,
+    "stdout": "2.2.1\n",
+    "stderr": ""
+  }
+}
+
+external command {
+  "bin": "/usr/local/bin/opam",
+  "args": [
+    "var",
+    "--global",
+    "root"
+  ]
+}
+
+external command (finished) {
+  "bin": "/usr/local/bin/opam",
+  "args": [
+    "--version"
+  ],
+  "result": {
+    "exitCode": 0,
+    "stdout": "2.2.1\n",
+    "stderr": ""
+  }
+}
+
+external command {
+  "bin": "/usr/local/bin/opam",
+  "args": [
+    "var",
+    "--global",
+    "root"
+  ]
+}
+
+external command (finished) {
+  "bin": "/usr/local/bin/opam",
+  "args": [
+    "var",
+    "--global",
+    "root"
+  ],
+  "result": {
+    "exitCode": 0,
+    "stdout": "/home/jvj/.opam\n",
+    "stderr": ""
+  }
+}
+
+external command (finished) {
+  "bin": "/usr/local/bin/opam",
+  "args": [
+    "var",
+    "--global",
+    "root"
+  ],
+  "result": {
+    "exitCode": 0,
+    "stdout": "/home/jvj/.opam\n",
+    "stderr": ""
+  }
+}
+

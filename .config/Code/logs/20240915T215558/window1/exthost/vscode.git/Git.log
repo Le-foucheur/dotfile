@@ -1,0 +1,80 @@
+2024-09-15 21:56:03.825 [info] [main] Log level: Info
+2024-09-15 21:56:03.825 [info] [main] Validating found git in: "git"
+2024-09-15 21:56:03.825 [info] [main] Using git "2.46.0" from "git"
+2024-09-15 21:56:03.825 [info] [Model][doInitialScan] Initial repository scan started
+2024-09-15 21:56:03.825 [info] > git rev-parse --show-toplevel [305ms]
+2024-09-15 21:56:03.825 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-15 21:56:03.825 [info] > git rev-parse --show-toplevel [89ms]
+2024-09-15 21:56:03.825 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-15 21:56:03.943 [info] > git rev-parse --show-toplevel [120ms]
+2024-09-15 21:56:03.943 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-15 21:56:03.949 [info] > git rev-parse --show-toplevel [2ms]
+2024-09-15 21:56:03.949 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-15 21:56:03.955 [info] > git rev-parse --show-toplevel [3ms]
+2024-09-15 21:56:03.955 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-15 21:56:03.960 [info] > git rev-parse --show-toplevel [2ms]
+2024-09-15 21:56:03.960 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-15 21:56:03.960 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-09-15 22:07:14.811 [info] [main] Log level: Info
+2024-09-15 22:07:14.811 [info] [main] Validating found git in: "git"
+2024-09-15 22:07:14.811 [info] [main] Using git "2.46.0" from "git"
+2024-09-15 22:07:14.811 [info] [Model][doInitialScan] Initial repository scan started
+2024-09-15 22:07:14.828 [info] > git rev-parse --show-toplevel [17ms]
+2024-09-15 22:07:14.835 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-09-15 22:07:14.837 [info] [Model][openRepository] Opened repository: /home/jvj/gith/dotfile
+2024-09-15 22:07:14.841 [info] > git config --get commit.template [1ms]
+2024-09-15 22:07:14.845 [info] > git rev-parse --show-toplevel [4ms]
+2024-09-15 22:07:14.845 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-09-15 22:07:14.846 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-15 22:07:14.848 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/jvj/gith/dotfile/.git/refs/remotes/origin/main'
+2024-09-15 22:07:14.849 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-09-15 22:07:14.853 [info] > git status -z -uall [2ms]
+2024-09-15 22:07:14.864 [info] > git config --get commit.template [3ms]
+2024-09-15 22:07:14.864 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2024-09-15 22:07:14.869 [info] > git config --local branch.main.vscode-merge-base [3ms]
+2024-09-15 22:07:14.869 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-15 22:07:14.930 [info] > git reflog main --grep-reflog=branch: Created from *. [59ms]
+2024-09-15 22:07:14.938 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [6ms]
+2024-09-15 22:07:14.940 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [10ms]
+2024-09-15 22:07:14.955 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/jvj/gith/dotfile/.git/refs/remotes/origin/main'
+2024-09-15 22:07:14.956 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [16ms]
+2024-09-15 22:07:14.959 [info] > git rev-parse refs/remotes/origin/main [4ms]
+2024-09-15 22:07:14.961 [info] > git config --local branch.main.vscode-merge-base origin/main [3ms]
+2024-09-15 22:07:14.965 [info] > git status -z -uall [4ms] (cancelled)
+2024-09-15 22:07:14.966 [info] > git config --get commit.template [1ms]
+2024-09-15 22:07:15.002 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-09-15 22:07:15.004 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/jvj/gith/dotfile/.git/refs/remotes/origin/main'
+2024-09-15 22:07:15.005 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-09-15 22:07:15.013 [info] > git status -z -uall [3ms]
+2024-09-15 22:07:15.017 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-15 22:07:15.019 [info] > git merge-base refs/heads/main refs/remotes/origin/main [2ms]
+2024-09-15 22:07:15.022 [info] > git config --local branch.main.vscode-merge-base [3ms]
+2024-09-15 22:07:15.024 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [1ms]
+2024-09-15 22:07:15.025 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [4ms]
+2024-09-15 22:07:15.028 [info] > git diff --name-status -z --diff-filter=ADMR bd49911eca17e1dc691a85c9781c58431a25ca32...refs/remotes/origin/main [2ms]
+2024-09-15 22:07:15.368 [info] > git check-ignore -v -z --stdin [1ms]
+2024-09-15 22:07:16.056 [info] > git config --get commit.template [5ms]
+2024-09-15 22:07:16.057 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-15 22:07:16.059 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/jvj/gith/dotfile/.git/refs/remotes/origin/main'
+2024-09-15 22:07:16.061 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-15 22:07:16.066 [info] > git status -z -uall [3ms]
+2024-09-15 22:07:16.074 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-15 22:07:16.079 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-09-15 22:07:16.086 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [2ms]
+2024-09-15 22:07:17.656 [info] > git check-ignore -v -z --stdin [4ms]
+2024-09-15 22:07:17.783 [info] > git merge-base refs/heads/main refs/remotes/origin/main [3ms]
+2024-09-15 22:07:17.799 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z bd49911eca17e1dc691a85c9781c58431a25ca32 [9ms]
+2024-09-15 22:07:17.804 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent bd49911eca17e1dc691a85c9781c58431a25ca32.. --topo-order --decorate=full refs/heads/main refs/remotes/origin/main [5ms]
+2024-09-15 22:07:17.907 [info] > git merge-base refs/heads/main refs/remotes/origin/main [4ms]
+2024-09-15 22:07:17.920 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z bd49911eca17e1dc691a85c9781c58431a25ca32 [5ms]
+2024-09-15 22:07:17.922 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent bd49911eca17e1dc691a85c9781c58431a25ca32.. --topo-order --decorate=full refs/heads/main refs/remotes/origin/main [3ms]
+2024-09-15 22:07:18.410 [info] > git check-ignore -v -z --stdin [2ms]
+2024-09-15 22:07:21.062 [info] > git merge-base refs/heads/main refs/remotes/origin/main [1ms]
+2024-09-15 22:07:21.075 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z bd49911eca17e1dc691a85c9781c58431a25ca32 [5ms]
+2024-09-15 22:07:21.076 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent bd49911eca17e1dc691a85c9781c58431a25ca32.. --topo-order --decorate=full refs/heads/main refs/remotes/origin/main [2ms]

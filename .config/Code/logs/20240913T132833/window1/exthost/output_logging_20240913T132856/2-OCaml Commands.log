@@ -1,0 +1,17 @@
+$ ocamlc --version
+5.2.0
+
+$ ocamllsp --version
+
+$ /usr/local/bin/opam --version
+$ /usr/local/bin/opam --version
+2.2.1
+
+$ /usr/local/bin/opam var --global root
+2.2.1
+
+$ /usr/local/bin/opam var --global root
+/home/jvj/.opam
+
+/home/jvj/.opam
+

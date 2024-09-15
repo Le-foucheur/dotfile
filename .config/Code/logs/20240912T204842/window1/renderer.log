@@ -1,0 +1,4 @@
+2024-09-12 20:48:44.917 [info] Started local extension host with pid 15063.
+2024-09-12 20:48:47.865 [info] [perf] Render performance baseline is 14ms
+2024-09-12 20:49:17.284 [error] [File Watcher (parcel)] Unexpected error: inotify_add_watch on '/home/jvj/.config/Code/logs/20240909T225224/window1/exthost/vscode.github' failed: No such file or directory (EUNKNOWN) (path: /home/jvj)
+2024-09-12 20:49:17.285 [error] [File Watcher (universal)] inotify_add_watch on '/home/jvj/.config/Code/logs/20240909T225224/window1/exthost/vscode.github' failed: No such file or directory

@@ -1,0 +1,23 @@
+2024-09-15 15:58:34.710 [info] Started local extension host with pid 9369.
+2024-09-15 15:58:35.385 [error] Extension 'ms-vscode.cpptools' appears in product.json but enables LESS API proposals than the extension wants.
+package.json (LOSES): terminalDataWriteEvent, lmTools
+product.json (WINS): terminalDataWriteEvent
+2024-09-15 15:58:35.411 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2024-09-15 15:58:35.421 [warning] Invalid tool contribution from ms-vscode.cpptools: {"id":"cpptools-lmtool-configuration","name":"cpp","displayName":"C/C++ configuration","canBeInvokedManually":true,"userDescription":"Configuration of the active C or C++ file, like language standard version and target platform.","modelDescription":"For the active C or C++ file, this tool provides: the language (C, C++, or CUDA), the language standard version (such as C++11, C++14, C++17, or C++20), the compiler (such as GCC, Clang, or MSVC), the target platform (such as x86, x64, or ARM), and the target architecture (such as 32-bit or 64-bit).","icon":"$(file-code)","parametersSchema":{},"when":"(config.C_Cpp.experimentalFeatures =~ /^[eE]nabled$/)"}
+2024-09-15 15:58:37.329 [warning] Failed to fetch chat participant registry Offline
+2024-09-15 15:58:37.420 [error] Offline: Offline: Offline
+    at I (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:123:20665)
+    at async E.c (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:694:48517)
+    at async m.y (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1961:2606)
+    at async m.z (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1961:3296)
+    at async u.value (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1961:2509)
+2024-09-15 15:58:37.658 [info] [perf] Render performance baseline is 19ms
+2024-09-15 15:59:06.849 [error] [File Watcher (parcel)] Unexpected error: inotify_add_watch on '/home/jvj/.config/Code/logs/20240911T163530/window1/exthost/vscode.github' failed: No such file or directory (EUNKNOWN) (path: /home/jvj)
+2024-09-15 15:59:06.850 [error] [File Watcher (universal)] inotify_add_watch on '/home/jvj/.config/Code/logs/20240911T163530/window1/exthost/vscode.github' failed: No such file or directory
+2024-09-15 18:42:37.365 [info] Started local extension host with pid 81639.
+2024-09-15 18:42:38.710 [error] Extension 'ms-vscode.cpptools' appears in product.json but enables LESS API proposals than the extension wants.
+package.json (LOSES): terminalDataWriteEvent, lmTools
+product.json (WINS): terminalDataWriteEvent
+2024-09-15 18:42:38.716 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2024-09-15 18:42:38.744 [warning] Invalid tool contribution from ms-vscode.cpptools: {"id":"cpptools-lmtool-configuration","name":"cpp","displayName":"C/C++ configuration","canBeInvokedManually":true,"userDescription":"Configuration of the active C or C++ file, like language standard version and target platform.","modelDescription":"For the active C or C++ file, this tool provides: the language (C, C++, or CUDA), the language standard version (such as C++11, C++14, C++17, or C++20), the compiler (such as GCC, Clang, or MSVC), the target platform (such as x86, x64, or ARM), and the target architecture (such as 32-bit or 64-bit).","icon":"$(file-code)","parametersSchema":{},"when":"(config.C_Cpp.experimentalFeatures =~ /^[eE]nabled$/)"}
+2024-09-15 18:42:40.425 [info] [perf] Render performance baseline is 14ms

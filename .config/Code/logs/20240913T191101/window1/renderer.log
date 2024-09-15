@@ -1,0 +1,14 @@
+2024-09-13 19:11:03.769 [info] Started local extension host with pid 12009.
+2024-09-13 19:11:04.872 [error] Extension 'ms-vscode.cpptools' appears in product.json but enables LESS API proposals than the extension wants.
+package.json (LOSES): terminalDataWriteEvent, lmTools
+product.json (WINS): terminalDataWriteEvent
+2024-09-13 19:11:04.924 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2024-09-13 19:11:04.958 [warning] Invalid tool contribution from ms-vscode.cpptools: {"id":"cpptools-lmtool-configuration","name":"cpp","displayName":"C/C++ configuration","canBeInvokedManually":true,"userDescription":"Configuration of the active C or C++ file, like language standard version and target platform.","modelDescription":"For the active C or C++ file, this tool provides: the language (C, C++, or CUDA), the language standard version (such as C++11, C++14, C++17, or C++20), the compiler (such as GCC, Clang, or MSVC), the target platform (such as x86, x64, or ARM), and the target architecture (such as 32-bit or 64-bit).","icon":"$(file-code)","parametersSchema":{},"when":"(config.C_Cpp.experimentalFeatures =~ /^[eE]nabled$/)"}
+2024-09-13 19:11:06.691 [info] [perf] Render performance baseline is 13ms
+2024-09-13 19:11:14.426 [info] Started local extension host with pid 12131.
+2024-09-13 19:11:14.641 [error] Extension 'ms-vscode.cpptools' appears in product.json but enables LESS API proposals than the extension wants.
+package.json (LOSES): terminalDataWriteEvent, lmTools
+product.json (WINS): terminalDataWriteEvent
+2024-09-13 19:11:14.651 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2024-09-13 19:11:14.664 [warning] Invalid tool contribution from ms-vscode.cpptools: {"id":"cpptools-lmtool-configuration","name":"cpp","displayName":"C/C++ configuration","canBeInvokedManually":true,"userDescription":"Configuration of the active C or C++ file, like language standard version and target platform.","modelDescription":"For the active C or C++ file, this tool provides: the language (C, C++, or CUDA), the language standard version (such as C++11, C++14, C++17, or C++20), the compiler (such as GCC, Clang, or MSVC), the target platform (such as x86, x64, or ARM), and the target architecture (such as 32-bit or 64-bit).","icon":"$(file-code)","parametersSchema":{},"when":"(config.C_Cpp.experimentalFeatures =~ /^[eE]nabled$/)"}
+2024-09-13 19:11:17.009 [info] [perf] Render performance baseline is 14ms

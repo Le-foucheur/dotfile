@@ -1,0 +1,7 @@
+2024-09-15 21:56:13.245 [info] Getting Manifest... ms-vscode.cpptools
+2024-09-15 21:56:13.306 [info] Installing extension: ms-vscode.cpptools {"installPreReleaseVersion":false,"preRelease":false,"pinned":false,"productVersion":{"version":"1.92.2","date":"2024-08-14T17:29:30.058Z"},"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/jvj/.vscode/extensions/extensions.json","path":"/home/jvj/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
+2024-09-15 21:57:06.514 [info] Extension signature verification result for ms-vscode.cpptools: UnknownError. Executed: true. Duration: 291ms.
+2024-09-15 21:57:08.875 [info] Extracted extension to file:///home/jvj/.vscode/extensions/ms-vscode.cpptools-1.21.6-linux-arm64: ms-vscode.cpptools
+2024-09-15 21:57:09.372 [info] Renamed to /home/jvj/.vscode/extensions/ms-vscode.cpptools-1.21.6-linux-arm64
+2024-09-15 21:57:09.591 [info] Marked extension as uninstalled ms-vscode.cpptools-1.22.3-linux-arm64
+2024-09-15 21:57:09.604 [info] Extension installed successfully: ms-vscode.cpptools vscode-userdata:/home/jvj/.vscode/extensions/extensions.json

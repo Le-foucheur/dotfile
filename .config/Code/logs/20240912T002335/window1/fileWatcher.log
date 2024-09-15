@@ -1,0 +1,2 @@
+2024-09-12 00:23:51.500 [error] [File Watcher (parcel)] Unexpected error: inotify_add_watch on '/home/jvj/.config/Code/logs/20240909T225110/window1/exthost/vscode.git' failed: No such file or directory (EUNKNOWN) (path: /home/jvj)
+2024-09-12 00:23:51.500 [error] [File Watcher (universal)] inotify_add_watch on '/home/jvj/.config/Code/logs/20240909T225110/window1/exthost/vscode.git' failed: No such file or directory

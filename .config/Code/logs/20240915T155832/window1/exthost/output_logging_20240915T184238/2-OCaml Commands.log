@@ -1,0 +1,50 @@
+$ ocamlc --version
+5.2.0
+
+$ ocamllsp --version
+$ /usr/local/bin/opam --version
+$ /usr/local/bin/opam --version
+
+2.2.1
+2.2.1
+
+$ /usr/local/bin/opam var --global root
+
+$ /usr/local/bin/opam var --global root
+/home/jvj/.opam
+
+/home/jvj/.opam
+
+$ /usr/local/bin/opam switch list -s --root /home/jvj/.opam
+default
+
+$ /usr/local/bin/opam --version
+2.2.1
+
+$ /usr/local/bin/opam var --global root
+/home/jvj/.opam
+
+$ /usr/local/bin/opam switch show --root /home/jvj/.opam
+default
+
+$ /usr/local/bin/opam switch list -s --root /home/jvj/.opam
+default
+
+$ /usr/local/bin/opam --version
+2.2.1
+
+$ /usr/local/bin/opam var --global root
+/home/jvj/.opam
+
+$ /usr/local/bin/opam switch show --root /home/jvj/.opam
+default
+
+$ /usr/local/bin/opam switch list -s --root /home/jvj/.opam
+default
+
+$ /usr/local/bin/opam exec --switch=default --set-switch --root /home/jvj/.opam -- ocamlc --version
+5.2.0
+
+$ /usr/local/bin/opam exec --switch=default --set-switch --root /home/jvj/.opam -- ocamllsp --version
+[ERROR] Command not found 'ocamllsp'
+

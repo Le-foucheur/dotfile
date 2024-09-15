@@ -1,0 +1,110 @@
+* {
+	border: none;
+	border-radius: 0;
+	font-size: 12px;
+	font-family: "JetBrainsMono Nerd Font Mono","MesloLGS Nerd Font", "Cantarell", "Mononoki Nerd Font", "Font Awesome", "Icons";
+	box-shadow: none;
+	text-shadow: none;
+	transition-duration: 0s;
+}
+
+window {
+	color: rgb(255, 255, 255);
+	background: rgb(0, 0, 0);
+}
+
+#workspaces {
+	margin: 0 5px;
+}
+
+#workspaces button {
+	padding: 0 5px;
+	color: rgba(217, 216, 216, 0.6);
+}
+
+#workspaces button.visible {
+	color: rgba(217, 216, 216, 1);
+}
+
+#workspaces button.focused {
+	border-top: 3px solid rgba(217, 216, 216, 1);
+	border-bottom: 3px solid transparent;
+	color: #fc9867;
+}
+
+#workspaces button.urgent {
+	color: rgba(238, 46, 36, 1);
+}
+
+#mode,
+#battery,
+#cpu,
+#temperature,
+#memory,
+#network,
+#pulseaudio,
+#disk {
+	margin: 0px 6px 0px 5px;
+}
+
+#custom-spotify {
+	margin: 0px 0px 0px 5px;
+}
+
+#custom-separator {
+	color: rgba(217, 216, 216, 0.5);
+	font-weight: bold;
+}
+
+#clock, #custom-clock {
+	margin: 0px 10px 0px 5px;
+	font-weight: bold;
+}
+
+#tray {
+	margin: 0px 5px 0px 0px;
+}
+
+#cpu.warning, #battery.warning {
+	color: #FFD866;
+}
+
+#cpu.critical, #temperature.critical {
+	color: #FF6188;
+}
+
+#battery.critical {
+	color: #FF6188;
+}
+
+#battery.good {
+	color: #759f02;
+}
+
+#battery, #battery.full {
+	color: #349f02;
+}
+
+#battery.charging {
+	color: #b3b305;
+}
+
+#network {
+	color:#349f02
+}
+
+#network.nice {
+	color:#7a9f02
+}
+
+#network.good {
+	color:#959f02
+}
+
+#network.bad {
+	color:#9f0702
+}
+
+#network.disconnected {
+	color:#9f0702
+}

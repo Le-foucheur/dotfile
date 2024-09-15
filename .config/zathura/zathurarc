@@ -1,0 +1,6 @@
+set adjust-open "best-fit"
+set database "sqlite"
+
+map <C-i> recolor
+
+set selection-clipboard clipboard

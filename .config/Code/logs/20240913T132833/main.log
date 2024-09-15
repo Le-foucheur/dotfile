@@ -1,0 +1,21 @@
+2024-09-13 13:28:34.619 [info] update#setState idle
+2024-09-13 13:28:49.683 [error] update#isLatestVersion(): failed to check for updates
+2024-09-13 13:28:49.684 [error] Error: net::ERR_CONNECTION_CLOSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:114352)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+2024-09-13 13:28:50.107 [error] update#isLatestVersion(): failed to check for updates
+2024-09-13 13:28:50.107 [error] Error: net::ERR_CONNECTION_CLOSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:114352)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+2024-09-13 13:28:55.561 [info] Extension host with pid 11651 exited with code: 0, signal: unknown.
+2024-09-13 13:28:56.562 [error] Extension host with pid 11651 still exists, forcefully killing it...
+2024-09-13 13:29:04.622 [info] update#setState checking for updates
+2024-09-13 13:29:11.578 [error] update#isLatestVersion(): failed to check for updates
+2024-09-13 13:29:11.579 [error] Error: net::ERR_CONNECTION_CLOSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:114352)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+2024-09-13 13:29:12.574 [error] Error: net::ERR_CONNECTION_CLOSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:114352)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+2024-09-13 13:29:12.574 [info] update#setState idle
+2024-09-13 13:31:14.011 [info] Extension host with pid 12219 exited with code: 0, signal: unknown.

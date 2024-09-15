@@ -1,0 +1,15 @@
+2024-09-13 13:32:06.192 [error] electron #2: https://update.code.visualstudio.com/api/update/linux-arm64/stable/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9 - error undefined net::ERR_CONNECTION_CLOSED
+2024-09-13 13:32:06.202 [error] electron #4: https://update.code.visualstudio.com/api/update/linux-arm64/stable/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9 - error undefined net::ERR_CONNECTION_CLOSED
+2024-09-13 13:32:36.383 [error] electron #5: https://update.code.visualstudio.com/api/update/linux-arm64/stable/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9 - error undefined net::ERR_CONNECTION_CLOSED
+2024-09-13 13:34:49.071 [error] electron #3: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_HTTP2_PROTOCOL_ERROR
+2024-09-13 13:35:21.941 [error] electron #12: https://ms-vscode.gallerycdn.vsassets.io/extensions/ms-vscode/cpptools/1.21.6/1722886894689/Microsoft.VisualStudio.Code.Manifest?targetPlatform=linux-arm64 - error GET net::ERR_TIMED_OUT
+2024-09-13 13:37:55.890 [error] electron #10: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_HTTP2_PROTOCOL_ERROR
+2024-09-13 13:38:00.897 [error] electron #11: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_HTTP2_PROTOCOL_ERROR
+2024-09-13 13:40:07.126 [error] electron #25: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_CONNECTION_RESET
+2024-09-13 13:40:07.127 [error] electron #26: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_CONNECTION_RESET
+2024-09-13 13:45:40.982 [error] electron #27: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_HTTP2_PROTOCOL_ERROR
+2024-09-13 13:46:01.385 [error] electron #29: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_HTTP2_PROTOCOL_ERROR
+2024-09-13 13:51:41.671 [error] electron #30: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_HTTP2_PING_FAILED
+2024-09-13 13:51:41.672 [error] electron #31: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_HTTP2_PING_FAILED
+2024-09-13 13:55:04.817 [error] electron #36: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_HTTP2_PING_FAILED
+2024-09-13 13:55:04.819 [error] electron #38: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_HTTP2_PING_FAILED

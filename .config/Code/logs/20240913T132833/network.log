@@ -1,0 +1,4 @@
+2024-09-13 13:28:49.683 [error] electron #2: https://update.code.visualstudio.com/api/update/linux-arm64/stable/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9 - error undefined net::ERR_CONNECTION_CLOSED
+2024-09-13 13:28:50.107 [error] electron #3: https://update.code.visualstudio.com/api/update/linux-arm64/stable/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9 - error undefined net::ERR_CONNECTION_CLOSED
+2024-09-13 13:29:11.578 [error] electron #5: https://update.code.visualstudio.com/api/update/linux-arm64/stable/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9 - error undefined net::ERR_CONNECTION_CLOSED
+2024-09-13 13:29:12.574 [error] electron #6: https://update.code.visualstudio.com/api/update/linux-arm64/stable/fee1edb8d6d72a0ddff41e5f71a671c23ed924b9 - error undefined net::ERR_CONNECTION_CLOSED

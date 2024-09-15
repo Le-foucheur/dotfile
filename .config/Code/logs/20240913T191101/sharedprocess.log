@@ -1,0 +1,8 @@
+2024-09-13 19:11:04.660 [info] Deleted uninstalled extension from disk ms-vscode.cpptools /home/jvj/.vscode/extensions/ms-vscode.cpptools-1.21.6-linux-arm64
+2024-09-13 19:11:04.738 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/jvj/.vscode/extensions/ms-vscode.cpptools-1.21.6-linux-arm64.-57f44bb9.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/jvj/.vscode/extensions/ms-vscode.cpptools-1.21.6-linux-arm64.-57f44bb9.vsctmp'
+    at o.create (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19408)
+    at u (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19519)
+    at p.hb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:36714)
+    at p.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:29034)
+    at async c.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:14940)
+    at async z.ub (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:120384)

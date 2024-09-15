@@ -1,0 +1,147 @@
+{
+	"layer": "bottom",
+	"position": "bottom",
+	"height": 30,
+	"modules-center": [
+		"sway/workspaces",
+		"sway/mode"
+	],
+    "modules-left": [
+        "cpu",
+		"custom/separator",
+		"disk",
+		"custom/separator",
+		"memory",
+        "custom/separator",
+		"temperature",
+        "custom/separator",
+        "sway/language"
+    ],
+	"modules-right": [
+		"custom/spotify",
+		"network",
+		"custom/separator",
+		"pulseaudio",
+		"bluetooth",
+		"custom/separator",
+		"battery",
+		"custom/separator",
+		"clock"
+	],
+	"sway/mode": {
+		"format": "{}"
+	},
+	"sway/workspaces": {
+		"format": "{name}",
+		"disable-scroll": true
+	},
+	"custom/separator": {
+		"format": "¦",
+		"tooltip": false
+	},
+	"clock": {
+		"interval": 5,
+		"format": "{:%H:%M:%S | %d %a %Y}",
+		"timezones":[
+			"Europe/Paris",
+			"Etc/UTC"
+		],
+		"actions":{
+			"on-click":"tz_up"
+		},
+		"tooltip": false
+	},
+	"battery": {
+		"format": "{icon}  {capacity}%",
+		"format-alt": "{time}",
+		"format-charging": "{icon} {capacity}%",
+        "format-icons":{
+            "default":["󰂎", "󰁺", "󰁻", "󰁼", "󰁽","󰁾","󰁿","󰂀","󰂁","󰂁","󰂂","󰁹"],
+			"charging":["󰢟", "󰢜","󰂆", "󰂇", "󰂈", "󰢝", "󰢝","󰂉","󰢞", "󰂊","󰂋","󰂅"],
+			"full":"󰁹"
+        },
+		"format-full": "{icon}",
+		"interval": 1,
+		"states": {
+			"good": 80,
+			"warning": 30,
+			"critical": 15
+		},
+		"tooltip": false
+	},
+	"network": {
+		"interval": 15,
+		"format": "{signalStrength}% {icon}",
+		"format-disconnected": "⚠ Déconécté",
+		"tooltip": true,
+		"states": {
+			"nice": 80,
+			"good": 30,
+			"bad": 15
+		},
+        "tooltip-format": " {essid} \n ↑ - {bandwidthUpOctets} \n ↓ - {bandwidthDownOctets} \n {ipaddr}",
+        "format-icons": ["\udb82\udd2f", "\udb82\udd1f", "\udb82\udd22", "\udb82\udd25", "\udb82\udd28"],
+		"on-click": "exec nmcli d w c Gas"
+	},
+	"pulseaudio": {
+		"format": "{icon} {volume}%",
+		"format-muted": "",
+		"scroll-step": 1,
+        "format-icons":["", "", ""],
+		"on-click": "process=$(pidof pavucontrol) ; if [[ -z $process ]]; then pavucontrol& else swaymsg '[app_id=pavucontrol]' focus; fi",
+		"on-click-right": "if [[ $(bluetoothctl show | grep PowerState | cut -c14-) = 'on' ]]; then bluetoothctl power off; else bluetoothctl power on; fi",
+		"tooltip": false
+	},
+	"bluetooth": {
+		"format": "",
+		"format-on": "\uf293",
+		"format-connected": "\uf293",
+		"format-connected-battery": "\uf293",
+		"on-click": "exec alacritty -T 'Alacritty - bluetoothctl' -e bluetoothctl&",
+		"on-click-right": "if [[ $(bluetoothctl show | grep PowerState | cut -c14-) = 'on' ]]; then bluetoothctl power off; else bluetoothctl power on; fi",
+		"tooltip": true,
+		"tooltip-format-connected": "{device_alias}",
+		"tooltip-format-connected-battery": "{device_alias} {device_battery_percentage}%"
+	},
+	"custom/spotify": {
+		"format": "{} <span fgcolor='#d9d8d880' font_weight='bold'>¦</span>",
+		"interval": 1,
+		"return-type": "json",
+		"exec": "~/.config/waybar/modules/spotify.sh",
+		"exec-if": "pgrep deezer-enhanced",
+		"escape": true,
+		"on-click": "swaymsg '[title=\"Deezer Enhanced\"]' focus"
+	},
+	"disk": {
+		"interval": 30,
+		"tooltip": false,
+		"format": "{free}",
+		"path": "/"
+	},
+	"memory": {
+		"interval": 15,
+		"format": "{used:.1f} GiB/{total:.1f} GiB",
+		"tooltip": false,
+		"on-click": "process=$(pidof htop) ; if [[ -z $process ]]; then exec alacritty -T 'Alacritty - htop' -e htop& else swaymsg '[title=\"Alacritty - htop\"]' focus; fi"
+	},
+	"cpu": {
+		"interval": 5,
+		"format": "cpu {usage:02}%",
+		"states": {
+			"warning": 80,
+			"critical": 95
+		},
+		"on-click": "process=$(pidof htop) ; if [[ -z $process ]]; then exec alacritty -T 'Alacritty - htop' -e htop& else swaymsg '[title=\"Alacritty - htop\"]' focus; fi"
+	},
+	"temperature": {
+		"interval": 10,
+		"format": "{icon} {temperatureC}°C",
+		"tooltip": false,
+		"critical-threshold": 90,
+        "format-icons":["","", "","",""],
+		"on-click": "process=$(pidof watch sensors) ; if [[ -z $process ]]; then exec alacritty -T 'Alacritty - sensors' -e watch sensors& else swaymsg '[title=\"Alacritty - sensors\"]' focus; fi"
+	},
+    "sway/language": {
+    "format": " {variant}"
+    }
+}

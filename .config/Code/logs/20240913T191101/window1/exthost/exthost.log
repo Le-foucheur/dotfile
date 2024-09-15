@@ -1,0 +1,30 @@
+2024-09-13 19:11:05.033 [info] Extension host with pid 12009 started
+2024-09-13 19:11:05.033 [info] Skipping acquiring lock for /home/jvj/.config/Code/User/workspaceStorage/42a39221c6e0430559634d9c07ff51ff.
+2024-09-13 19:11:05.086 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-09-13 19:11:05.112 [info] ExtensionService#_doActivateExtension ocamllabs.ocaml-platform, startup: false, activationEvent: 'onLanguage:ocaml'
+2024-09-13 19:11:05.351 [info] ExtensionService#_doActivateExtension zepalmer.ocaml-indentation, startup: false, activationEvent: 'onLanguage:ocaml'
+2024-09-13 19:11:05.484 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-09-13 19:11:05.820 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-09-13 19:11:05.936 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-09-13 19:11:06.137 [info] Eager extensions activated
+2024-09-13 19:11:06.155 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-09-13 19:11:06.169 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-09-13 19:11:13.987 [info] Extension host terminating: renderer closed the MessagePort
+2024-09-13 19:11:14.005 [info] Extension host with pid 12009 exiting with code 0
+2024-09-13 19:11:14.663 [info] Extension host with pid 12131 started
+2024-09-13 19:11:14.663 [info] Skipping acquiring lock for /home/jvj/.config/Code/User/workspaceStorage/c88540215143ebaafff5ebdf4a0af37f.
+2024-09-13 19:11:14.766 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-09-13 19:11:14.768 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2024-09-13 19:11:15.061 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-09-13 19:11:15.077 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-09-13 19:11:15.096 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-09-13 19:11:15.138 [info] ExtensionService#_doActivateExtension ocamllabs.ocaml-platform, startup: true, activationEvent: 'workspaceContains:**/dune-workspace,**/dune,**/dune-project,**/*.opam,**/*.ml,**/*.mli,**/*.mll,**/*.mly,**/*.re,**/*.rei'
+2024-09-13 19:11:15.507 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-09-13 19:11:20.034 [info] Eager extensions activated
+2024-09-13 19:11:20.036 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-09-13 19:11:20.038 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-09-13 19:11:23.075 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-09-13 19:11:23.115 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-09-13 19:11:23.141 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2024-09-13 19:11:23.206 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2024-09-13 20:25:28.125 [info] ExtensionService#_doActivateExtension tomoki1207.pdf, startup: false, activationEvent: 'onCustomEditor:pdf.preview'

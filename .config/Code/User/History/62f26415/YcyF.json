@@ -1,0 +1,6 @@
+{
+    "editor.minimap.enabled": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.fontFamily": "'JetBrainsMono Nerd Font','JetBrains Mono','Droid Sans Mono', 'monospace', monospace,",
+    "editor.fontLigatures": true
+}

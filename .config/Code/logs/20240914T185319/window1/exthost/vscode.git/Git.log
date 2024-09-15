@@ -1,0 +1,171 @@
+2024-09-14 18:53:25.550 [info] [main] Log level: Info
+2024-09-14 18:53:25.550 [info] [main] Validating found git in: "git"
+2024-09-14 18:53:25.557 [info] [main] Using git "2.46.0" from "git"
+2024-09-14 18:53:25.557 [info] [Model][doInitialScan] Initial repository scan started
+2024-09-14 18:53:25.708 [info] > git rev-parse --show-toplevel [146ms]
+2024-09-14 18:53:25.708 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-14 18:53:25.731 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-14 18:53:25.731 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-14 18:53:25.736 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-14 18:53:25.736 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-14 18:53:25.740 [info] > git rev-parse --show-toplevel [2ms]
+2024-09-14 18:53:25.740 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-14 18:53:25.744 [info] > git rev-parse --show-toplevel [3ms]
+2024-09-14 18:53:25.744 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-14 18:53:25.746 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-14 18:53:25.746 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-14 18:53:25.748 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-14 18:53:25.748 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-14 18:53:25.753 [info] > git rev-parse --show-toplevel [2ms]
+2024-09-14 18:53:25.753 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-14 18:53:25.756 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-14 18:53:25.756 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-14 18:53:25.767 [info] > git rev-parse --show-toplevel [8ms]
+2024-09-14 18:53:25.767 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-14 18:53:25.772 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-14 18:53:25.772 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-14 18:53:25.776 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-14 18:53:25.776 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-14 18:53:25.782 [info] > git rev-parse --show-toplevel [3ms]
+2024-09-14 18:53:25.782 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-14 18:53:25.786 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-14 18:53:25.786 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-14 18:53:25.791 [info] > git rev-parse --show-toplevel [3ms]
+2024-09-14 18:53:25.791 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-14 18:53:25.795 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-14 18:53:25.795 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-14 18:53:25.798 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-14 18:53:25.798 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-14 18:53:25.905 [info] > git rev-parse --show-toplevel [104ms]
+2024-09-14 18:53:25.911 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-09-14 18:53:25.917 [info] [Model][openRepository] Opened repository: /home/jvj/dotfiles
+2024-09-14 18:53:25.924 [info] > git config --get commit.template [3ms]
+2024-09-14 18:53:25.925 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-14 18:53:25.925 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-14 18:53:25.931 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-14 18:53:25.931 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-14 18:53:26.003 [info] > git rev-parse --show-toplevel [70ms]
+2024-09-14 18:53:26.009 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-09-14 18:53:26.015 [info] [Model][openRepository] Opened repository: /home/jvj/ocaml-lsp
+2024-09-14 18:53:26.024 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-14 18:53:26.024 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-14 18:53:26.024 [info] > git config --get commit.template [5ms]
+2024-09-14 18:53:26.032 [info] > git rev-parse --show-toplevel [4ms]
+2024-09-14 18:53:26.032 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-14 18:53:26.037 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-14 18:53:26.037 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-14 18:53:26.045 [info] > git rev-parse --show-toplevel [0ms]
+2024-09-14 18:53:26.045 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-14 18:53:26.201 [info] > git rev-parse --show-toplevel [154ms]
+2024-09-14 18:53:26.207 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-09-14 18:53:26.210 [info] [Model][openRepository] Opened repository: /home/jvj/yay
+2024-09-14 18:53:26.220 [info] > git config --get commit.template [2ms]
+2024-09-14 18:53:26.220 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [293ms]
+2024-09-14 18:53:26.221 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/jvj/dotfiles/.git/refs/remotes/origin/main'
+2024-09-14 18:53:26.221 [info] > git rev-parse --show-toplevel [2ms]
+2024-09-14 18:53:26.221 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-14 18:53:26.222 [info] [Model][doInitialScan] Initial repository scan completed - repositories (3), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-09-14 18:53:26.224 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2024-09-14 18:53:26.255 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [32ms]
+2024-09-14 18:53:26.259 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/jvj/yay/.git/refs/remotes/origin/master'
+2024-09-14 18:53:26.261 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2024-09-14 18:53:26.351 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [321ms]
+2024-09-14 18:53:26.354 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/jvj/ocaml-lsp/.git/refs/remotes/origin/master'
+2024-09-14 18:53:26.355 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2024-09-14 18:53:26.373 [info] > git status -z -uall [109ms]
+2024-09-14 18:53:26.396 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [15ms]
+2024-09-14 18:53:26.403 [info] > git config --local branch.master.vscode-merge-base [2ms]
+2024-09-14 18:53:26.412 [info] > git config --get commit.template [18ms]
+2024-09-14 18:53:26.417 [info] > git status -z -uall [190ms]
+2024-09-14 18:53:26.417 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [6ms]
+2024-09-14 18:53:26.442 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2024-09-14 18:53:26.448 [info] > git merge-base refs/heads/master refs/remotes/origin/master [25ms]
+2024-09-14 18:53:26.457 [info] > git check-ignore -v -z --stdin [3ms]
+2024-09-14 18:53:26.458 [info] > git rev-list --count --left-right refs/heads/master...refs/remotes/origin/master [7ms]
+2024-09-14 18:53:26.461 [info] > git config --local branch.main.vscode-merge-base [13ms]
+2024-09-14 18:53:26.464 [info] > git config --get commit.template [23ms]
+2024-09-14 18:53:26.464 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [27ms]
+2024-09-14 18:53:26.468 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/jvj/yay/.git/refs/remotes/origin/master'
+2024-09-14 18:53:26.468 [info] > git diff --name-status -z --diff-filter=ADMR 4abc0938416a57cbd9974864caff28b4b7c3415a...refs/remotes/origin/master [7ms]
+2024-09-14 18:53:26.529 [info] > git rev-parse refs/remotes/origin/master [61ms]
+2024-09-14 18:53:26.531 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [67ms]
+2024-09-14 18:53:26.538 [info] > git status -z -uall [7ms]
+2024-09-14 18:53:26.538 [info] > git merge-base refs/heads/main refs/remotes/origin/main [4ms]
+2024-09-14 18:53:26.542 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [14ms]
+2024-09-14 18:53:26.543 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/jvj/dotfiles/.git/refs/remotes/origin/main'
+2024-09-14 18:53:26.543 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [3ms]
+2024-09-14 18:53:26.545 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-09-14 18:53:26.547 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2024-09-14 18:53:26.548 [info] > git diff --name-status -z --diff-filter=ADMR 298278bc115722aaf85136a31993de4b4992b239...refs/remotes/origin/main [3ms]
+2024-09-14 18:53:26.549 [info] > git status -z -uall [2ms]
+2024-09-14 18:53:26.551 [info] > git config --local branch.master.vscode-merge-base [3ms]
+2024-09-14 18:53:26.593 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [39ms]
+2024-09-14 18:53:26.593 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [42ms]
+2024-09-14 18:53:26.600 [info] > git config --local branch.main.vscode-merge-base [3ms]
+2024-09-14 18:53:26.603 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [1ms]
+2024-09-14 18:53:26.859 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-14 18:53:26.859 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-14 18:53:27.611 [info] > git status -z -uall [1251ms]
+2024-09-14 18:53:27.623 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [7ms]
+2024-09-14 18:53:27.628 [info] > git config --get commit.template [5ms]
+2024-09-14 18:53:27.628 [info] > git config --local branch.master.vscode-merge-base [3ms]
+2024-09-14 18:53:27.631 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-09-14 18:53:27.633 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/jvj/ocaml-lsp/.git/refs/remotes/origin/master'
+2024-09-14 18:53:27.634 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [3ms]
+2024-09-14 18:53:27.637 [info] > git rev-parse refs/remotes/origin/master [4ms]
+2024-09-14 18:53:27.639 [info] > git merge-base refs/heads/master refs/remotes/origin/master [3ms]
+2024-09-14 18:53:27.643 [info] > git rev-list --count --left-right refs/heads/master...refs/remotes/origin/master [1ms]
+2024-09-14 18:53:27.649 [info] > git diff --name-status -z --diff-filter=ADMR 3dc1a6633bfe2ebd34d7aa38f008c8c28300ee55...refs/remotes/origin/master [3ms]
+2024-09-14 18:53:27.665 [info] > git status -z -uall [26ms]
+2024-09-14 18:53:27.671 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-09-14 18:53:27.675 [info] > git config --local branch.master.vscode-merge-base [1ms]
+2024-09-14 18:53:27.687 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [8ms]
+2024-09-14 19:17:01.394 [info] > git check-ignore -v -z --stdin [7ms]
+2024-09-14 19:17:01.399 [info] > git check-ignore -v -z --stdin [5ms]
+2024-09-14 19:17:03.966 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-14 19:17:03.966 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-09-14 19:21:16.528 [info] > git show --textconv :lsp.opam [5ms]
+2024-09-14 19:21:16.529 [info] > git ls-files --stage -- /home/jvj/ocaml-lsp/lsp.opam [3ms]
+2024-09-14 19:21:16.533 [info] > git cat-file -s 5d4117cff8e924bc5a8281172e086c0ccdc9032b [2ms]
+2024-09-14 19:21:18.494 [info] > git ls-files --stage -- /home/jvj/ocaml-lsp/lsp.opam.template [1ms]
+2024-09-14 19:21:18.584 [info] > git show --textconv :lsp.opam.template [95ms]
+2024-09-14 19:21:18.584 [info] > git cat-file -s 44877d421e9b4b307fc909ff834c961ac3a50981 [89ms]
+2024-09-14 19:21:40.955 [info] > git show --textconv :Makefile [7ms]
+2024-09-14 19:21:40.957 [info] > git ls-files --stage -- /home/jvj/ocaml-lsp/Makefile [2ms]
+2024-09-14 19:21:40.961 [info] > git cat-file -s 11ea0d90e72218b088f22975f613d1385dfc0233 [1ms]
+2024-09-14 19:23:38.568 [info] > git check-ignore -v -z --stdin [15ms]
+2024-09-14 19:25:21.991 [info] > git check-ignore -v -z --stdin [2ms]
+2024-09-14 19:25:24.200 [info] > git check-ignore -v -z --stdin [2ms]
+2024-09-14 19:25:31.720 [info] > git check-ignore -v -z --stdin [2ms]
+2024-09-14 19:25:33.057 [info] > git ls-files --stage -- /home/jvj/dotfiles/.config/zathura/zathurarc [2ms]
+2024-09-14 19:25:33.064 [info] > git show --textconv :.config/zathura/zathurarc [14ms]
+2024-09-14 19:25:33.065 [info] > git cat-file -s 20a33967897183433dc0c55faa9a297a346bbef6 [2ms]
+2024-09-14 19:25:40.023 [info] > git check-ignore -v -z --stdin [3ms]
+2024-09-14 19:25:42.949 [info] > git check-ignore -v -z --stdin [5ms]
+2024-09-14 19:25:45.304 [info] > git check-ignore -v -z --stdin [3ms]

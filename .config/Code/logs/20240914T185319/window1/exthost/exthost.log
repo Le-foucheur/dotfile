@@ -1,0 +1,16 @@
+2024-09-14 18:53:24.896 [info] Extension host with pid 39707 started
+2024-09-14 18:53:24.896 [info] Skipping acquiring lock for /home/jvj/.config/Code/User/workspaceStorage/c88540215143ebaafff5ebdf4a0af37f.
+2024-09-14 18:53:24.962 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-09-14 18:53:24.982 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-09-14 18:53:25.061 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-09-14 18:53:25.202 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-09-14 18:53:25.285 [info] ExtensionService#_doActivateExtension ocamllabs.ocaml-platform, startup: true, activationEvent: 'workspaceContains:**/dune-workspace,**/dune,**/dune-project,**/*.opam,**/*.ml,**/*.mli,**/*.mll,**/*.mly,**/*.re,**/*.rei'
+2024-09-14 18:53:26.469 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-09-14 18:53:26.847 [info] Eager extensions activated
+2024-09-14 18:53:26.869 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-09-14 18:53:26.888 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-09-14 18:53:26.920 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-09-14 18:53:26.949 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-09-14 18:53:26.980 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2024-09-14 18:53:27.031 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2024-09-14 18:53:27.050 [info] ExtensionService#_doActivateExtension be5invis.toml, startup: false, activationEvent: 'onLanguage:toml'

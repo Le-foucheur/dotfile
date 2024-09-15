@@ -1,0 +1,16 @@
+2024-09-13 13:31:51.350 [info] update#setState idle
+2024-09-13 13:32:06.192 [error] update#isLatestVersion(): failed to check for updates
+2024-09-13 13:32:06.194 [error] Error: net::ERR_CONNECTION_CLOSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:114352)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+2024-09-13 13:32:06.202 [error] update#isLatestVersion(): failed to check for updates
+2024-09-13 13:32:06.202 [error] Error: net::ERR_CONNECTION_CLOSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:114352)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+2024-09-13 13:32:21.358 [info] update#setState checking for updates
+2024-09-13 13:32:36.383 [error] Error: net::ERR_CONNECTION_CLOSED
+    at SimpleURLLoaderWrapper.<anonymous> (node:electron/js2c/browser_init:2:114352)
+    at SimpleURLLoaderWrapper.emit (node:events:519:28)
+2024-09-13 13:32:36.384 [info] update#setState idle
+2024-09-13 14:32:21.364 [info] update#setState checking for updates
+2024-09-13 14:32:21.776 [info] update#setState available for download

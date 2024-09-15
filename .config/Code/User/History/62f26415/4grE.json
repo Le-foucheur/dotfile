@@ -1,0 +1,9 @@
+{
+    "editor.minimap.enabled": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.fontFamily": "JetBrainsMono Nerd Font Mono",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 12,
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "ocaml.server.syntaxDocumentation": true
+}

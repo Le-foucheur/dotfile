@@ -1,0 +1,5 @@
+{
+    "editor.minimap.enabled": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.fontFamily": "\"Jet Brain\",'Droid Sans Mono', 'monospace', monospace,"
+}

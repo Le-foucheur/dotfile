@@ -1,0 +1,16 @@
+2024-09-12 00:23:36.920 [info] Started local extension host with pid 88189.
+2024-09-12 00:23:39.565 [info] [perf] Render performance baseline is 15ms
+2024-09-12 00:23:51.497 [error] [File Watcher (parcel)] Unexpected error: inotify_add_watch on '/home/jvj/.config/Code/logs/20240909T225110/window1/exthost/vscode.git' failed: No such file or directory (EUNKNOWN) (path: /home/jvj)
+2024-09-12 00:23:51.499 [error] [File Watcher (universal)] inotify_add_watch on '/home/jvj/.config/Code/logs/20240909T225110/window1/exthost/vscode.git' failed: No such file or directory
+2024-09-12 00:24:56.857 [error] spawn truecolor ENOENT: Error: spawn truecolor ENOENT
+    at ChildProcess._handle.onexit (node:internal/child_process:286:19)
+    at onErrorNT (node:internal/child_process:484:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2024-09-12 00:25:02.751 [error] spawn truecolor ENOENT: Error: spawn truecolor ENOENT
+    at ChildProcess._handle.onexit (node:internal/child_process:286:19)
+    at onErrorNT (node:internal/child_process:484:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2024-09-12 00:25:17.780 [error] spawn truecolor ENOENT: Error: spawn truecolor ENOENT
+    at ChildProcess._handle.onexit (node:internal/child_process:286:19)
+    at onErrorNT (node:internal/child_process:484:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)

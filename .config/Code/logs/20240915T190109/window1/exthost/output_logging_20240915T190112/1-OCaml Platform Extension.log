@@ -1,0 +1,190 @@
+external command {
+  "bin": "/usr/local/bin/opam",
+  "args": [
+    "--version"
+  ]
+}
+
+external command {
+  "bin": "/usr/local/bin/opam",
+  "args": [
+    "--version"
+  ]
+}
+
+external command (finished) {
+  "bin": "/usr/local/bin/opam",
+  "args": [
+    "--version"
+  ],
+  "result": {
+    "exitCode": 0,
+    "stdout": "2.2.1\n",
+    "stderr": ""
+  }
+}
+
+external command {
+  "bin": "/usr/local/bin/opam",
+  "args": [
+    "var",
+    "--global",
+    "root"
+  ]
+}
+
+external command (finished) {
+  "bin": "/usr/local/bin/opam",
+  "args": [
+    "--version"
+  ],
+  "result": {
+    "exitCode": 0,
+    "stdout": "2.2.1\n",
+    "stderr": ""
+  }
+}
+
+external command {
+  "bin": "/usr/local/bin/opam",
+  "args": [
+    "var",
+    "--global",
+    "root"
+  ]
+}
+
+external command (finished) {
+  "bin": "/usr/local/bin/opam",
+  "args": [
+    "var",
+    "--global",
+    "root"
+  ],
+  "result": {
+    "exitCode": 0,
+    "stdout": "/home/jvj/.opam\n",
+    "stderr": ""
+  }
+}
+
+external command (finished) {
+  "bin": "/usr/local/bin/opam",
+  "args": [
+    "var",
+    "--global",
+    "root"
+  ],
+  "result": {
+    "exitCode": 0,
+    "stdout": "/home/jvj/.opam\n",
+    "stderr": ""
+  }
+}
+
+external command {
+  "bin": "/usr/local/bin/opam",
+  "args": [
+    "switch",
+    "list",
+    "-s",
+    "--root",
+    "/home/jvj/.opam"
+  ]
+}
+
+external command (finished) {
+  "bin": "/usr/local/bin/opam",
+  "args": [
+    "switch",
+    "list",
+    "-s",
+    "--root",
+    "/home/jvj/.opam"
+  ],
+  "result": {
+    "exitCode": 0,
+    "stdout": "default\n",
+    "stderr": ""
+  }
+}
+
+external command {
+  "bin": "/usr/local/bin/opam",
+  "args": [
+    "exec",
+    "--switch=default",
+    "--set-switch",
+    "--root",
+    "/home/jvj/.opam",
+    "--",
+    "ocamlc",
+    "--version"
+  ]
+}
+
+external command (finished) {
+  "bin": "/usr/local/bin/opam",
+  "args": [
+    "exec",
+    "--switch=default",
+    "--set-switch",
+    "--root",
+    "/home/jvj/.opam",
+    "--",
+    "ocamlc",
+    "--version"
+  ],
+  "result": {
+    "exitCode": 0,
+    "stdout": "5.2.0\n",
+    "stderr": ""
+  }
+}
+
+external command {
+  "bin": "/usr/local/bin/opam",
+  "args": [
+    "exec",
+    "--switch=default",
+    "--set-switch",
+    "--root",
+    "/home/jvj/.opam",
+    "--",
+    "ocamllsp",
+    "--version"
+  ]
+}
+
+external command (finished) {
+  "bin": "/usr/local/bin/opam",
+  "args": [
+    "exec",
+    "--switch=default",
+    "--set-switch",
+    "--root",
+    "/home/jvj/.opam",
+    "--",
+    "ocamllsp",
+    "--version"
+  ],
+  "result": {
+    "exitCode": 0,
+    "stdout": "1.19.0\n",
+    "stderr": ""
+  }
+}
+
+external command {
+  "bin": "/usr/local/bin/opam",
+  "args": [
+    "exec",
+    "--switch=default",
+    "--set-switch",
+    "--root",
+    "/home/jvj/.opam",
+    "--",
+    "ocamllsp"
+  ]
+}
+

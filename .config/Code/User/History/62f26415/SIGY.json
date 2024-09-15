@@ -1,0 +1,18 @@
+{
+    "editor.minimap.enabled": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.fontFamily": "JetBrainsMono Nerd Font Mono",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 12,
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "ocaml.server.syntaxDocumentation": true,
+    "typst-lsp.trace.server": "verbose",
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "tinymist.exportPdf": "onSave",
+    "tinymist.formatterMode": "typstyle",
+    "tinymist.preview.invertColors": "auto",
+    "workbench.editor.defaultBinaryEditor": "pdf.preview",
+    "workbench.editor.enablePreviewFromCodeNavigation": true,
+    "workbench.editor.highlightModifiedTabs": true,
+}

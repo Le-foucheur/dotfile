@@ -1,0 +1,11 @@
+2024-09-13 13:31:51.832 [info] Started local extension host with pid 15932.
+2024-09-13 13:31:53.403 [error] command 'ocaml.refresh-switches' not found: Error: command 'ocaml.refresh-switches' not found
+    at v.n (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1881:24092)
+    at v.executeCommand (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1881:24021)
+2024-09-13 13:32:06.365 [info] [perf] Render performance baseline is 21ms
+2024-09-13 13:50:12.799 [error] Unknown: Unknown error while installing extension ms-vscode.cpptools-extension-pack
+    at z.installFromGallery (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:61675)
+2024-09-13 13:50:12.801 [error] Unknown error while installing extension ms-vscode.cpptools-extension-pack: Unknown: Unknown error while installing extension ms-vscode.cpptools-extension-pack
+    at z.installFromGallery (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:61675)
+2024-09-13 13:59:31.698 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2024-09-13 14:10:20.388 [warning] SettingsEditor2: Settings not included in settingsLayout.ts: issueReporter.experimental.auxWindow

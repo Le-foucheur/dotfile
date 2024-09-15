@@ -1,0 +1,9 @@
+2024-09-13 13:28:35.971 [info] Started local extension host with pid 11651.
+2024-09-13 13:28:50.164 [info] [perf] Render performance baseline is 13ms
+2024-09-13 13:28:55.897 [info] Started local extension host with pid 12219.
+2024-09-13 13:28:57.312 [error] command 'ocaml.refresh-switches' not found: Error: command 'ocaml.refresh-switches' not found
+    at v.n (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1881:24092)
+    at v.executeCommand (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1881:24021)
+2024-09-13 13:28:58.617 [warning] SettingsEditor2: Settings not included in settingsLayout.ts: issueReporter.experimental.auxWindow
+2024-09-13 13:29:11.755 [info] [perf] Render performance baseline is 22ms
+2024-09-13 13:31:03.161 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings

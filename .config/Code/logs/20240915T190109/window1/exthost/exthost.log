@@ -1,0 +1,13 @@
+2024-09-15 19:01:12.575 [info] Extension host with pid 94745 started
+2024-09-15 19:01:12.575 [info] Skipping acquiring lock for /home/jvj/.config/Code/User/workspaceStorage/42a39221c6e0430559634d9c07ff51ff.
+2024-09-15 19:01:12.583 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-09-15 19:01:12.610 [info] ExtensionService#_doActivateExtension ocamllabs.ocaml-platform, startup: false, activationEvent: 'onLanguage:ocaml'
+2024-09-15 19:01:12.844 [info] ExtensionService#_doActivateExtension zepalmer.ocaml-indentation, startup: false, activationEvent: 'onLanguage:ocaml'
+2024-09-15 19:01:12.872 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-09-15 19:01:13.047 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-09-15 19:01:13.429 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-09-15 19:01:14.191 [info] Eager extensions activated
+2024-09-15 19:01:14.205 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-09-15 19:01:14.244 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-09-15 19:03:47.435 [info] ExtensionService#_doActivateExtension tomoki1207.pdf, startup: false, activationEvent: 'onCustomEditor:pdf.preview'
+2024-09-15 19:09:39.446 [info] ExtensionService#_doActivateExtension ms-vscode.cpptools, startup: false, activationEvent: 'onLanguage:c'

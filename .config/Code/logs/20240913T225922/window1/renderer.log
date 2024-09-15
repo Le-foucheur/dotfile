@@ -1,0 +1,9 @@
+2024-09-13 22:59:25.132 [info] Started local extension host with pid 9354.
+2024-09-13 22:59:26.305 [error] Extension 'ms-vscode.cpptools' appears in product.json but enables LESS API proposals than the extension wants.
+package.json (LOSES): terminalDataWriteEvent, lmTools
+product.json (WINS): terminalDataWriteEvent
+2024-09-13 22:59:26.318 [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+2024-09-13 22:59:26.334 [warning] Invalid tool contribution from ms-vscode.cpptools: {"id":"cpptools-lmtool-configuration","name":"cpp","displayName":"C/C++ configuration","canBeInvokedManually":true,"userDescription":"Configuration of the active C or C++ file, like language standard version and target platform.","modelDescription":"For the active C or C++ file, this tool provides: the language (C, C++, or CUDA), the language standard version (such as C++11, C++14, C++17, or C++20), the compiler (such as GCC, Clang, or MSVC), the target platform (such as x86, x64, or ARM), and the target architecture (such as 32-bit or 64-bit).","icon":"$(file-code)","parametersSchema":{},"when":"(config.C_Cpp.experimentalFeatures =~ /^[eE]nabled$/)"}
+2024-09-13 22:59:28.151 [info] [perf] Render performance baseline is 20ms
+2024-09-13 23:00:51.208 [error] [File Watcher (parcel)] Unexpected error: inotify_add_watch on '/home/jvj/.config/Code/logs/20240909T225832/window1/exthost/output_logging_20240909T225833' failed: No such file or directory (EUNKNOWN) (path: /home/jvj)
+2024-09-13 23:00:51.208 [error] [File Watcher (universal)] inotify_add_watch on '/home/jvj/.config/Code/logs/20240909T225832/window1/exthost/output_logging_20240909T225833' failed: No such file or directory

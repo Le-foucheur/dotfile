@@ -1,0 +1,7 @@
+{
+    "enableTray": false,
+    "closeToTray": false,
+    "deemixIntegration": false,
+    "volumePower": 4,
+    "discordRPC": false
+}

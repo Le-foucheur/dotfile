@@ -1,0 +1,5 @@
+2024/09/15-11:09:18.899 f126 Reusing MANIFEST /home/jvj/.config/deezer-enhanced/Session Storage/MANIFEST-000001
+2024/09/15-11:09:18.900 f126 Recovering log #3
+2024/09/15-11:09:18.910 f126 (ignoring error) /home/jvj/.config/deezer-enhanced/Session Storage/000003.log: dropping 23107 bytes; Corruption: checksum mismatch
+2024/09/15-11:09:18.910 f126 (ignoring error) /home/jvj/.config/deezer-enhanced/Session Storage/000003.log: dropping 75 bytes; Corruption: missing start of fragmented record(2)
+2024/09/15-11:09:18.910 f126 Reusing old log /home/jvj/.config/deezer-enhanced/Session Storage/000003.log 

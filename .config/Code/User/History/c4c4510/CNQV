@@ -1,0 +1,15 @@
+# Ce profil autorise tout et n’existe que pour donner à
+# l’application un nom plutôt que laisser l’étiquette "unconfined"
+
+abi <abi/4.0>,
+include <tunables/global>
+profile firefox-local
+/home/jvj/bin/firefox/{firefox,firefox-bin,updater}
+flags=(unconfined) {
+
+    userns,
+    # Ajouts propres à l’installation et surcharges.
+    # Consultez local/README pour des précisions.
+    include if exists <local/firefox>
+
+} 

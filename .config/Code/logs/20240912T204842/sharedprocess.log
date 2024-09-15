@@ -1,0 +1,14 @@
+2024-09-12 20:48:49.687 [info] Getting Manifest... ms-python.python
+2024-09-12 20:48:49.794 [info] Installing extension: ms-python.python {"productVersion":{"version":"1.92.2","date":"2024-08-14T17:29:30.058Z"},"pinned":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/jvj/.vscode/extensions/extensions.json","path":"/home/jvj/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
+2024-09-12 20:48:57.241 [info] Extension signature verification result for ms-python.python: UnknownError. Executed: true. Duration: 277ms.
+2024-09-12 20:48:58.448 [info] Extracted extension to file:///home/jvj/.vscode/extensions/ms-python.python-2024.14.1-linux-arm64: ms-python.python
+2024-09-12 20:48:58.473 [info] Renamed to /home/jvj/.vscode/extensions/ms-python.python-2024.14.1-linux-arm64
+2024-09-12 20:48:58.532 [info] Marked extension as uninstalled ms-python.python-2024.14.0-linux-arm64
+2024-09-12 20:48:58.541 [info] Extension installed successfully: ms-python.python vscode-userdata:/home/jvj/.vscode/extensions/extensions.json
+2024-09-12 20:48:58.565 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/jvj/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/jvj/.vscode/extensions/extensions.json.vsctmp'
+    at o.create (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19408)
+    at u (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19519)
+    at p.hb (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:36714)
+    at p.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:29034)
+    at async c.stat (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:14940)
+    at async z.ub (/opt/visual-studio-code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:120384)
