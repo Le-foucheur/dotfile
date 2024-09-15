@@ -99,6 +99,12 @@ alias fastfetch="fastfetch -l arch"
 alias gccsafe='gcc -g -Wall -Wextra -std=c99 -fsanitize=address,undefined'
 source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 
+#pour la veille
+swayidle -w \
+	timeout 300 'swaylock -f -c 000000' \
+	timeout 600 'swaymsg "output * dpms off"' \
+		resume 'swaymsg "output * dpms on"' \
+	before-sleep 'swaylock -f -c 000000'
 
 # BEGIN opam configuration
 # This is useful if you're using opam as it adds:
