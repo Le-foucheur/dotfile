@@ -96,15 +96,12 @@ fi
 
 alias deezer="deezer-enhanced --enable-features=UseOzonePlatform --ozone-platform=wayland"
 alias fastfetch="fastfetch -l arch"
+alias circuit="circuitjs1-electron"
 alias gccsafe='gcc -g -Wall -Wextra -std=c99 -fsanitize=address,undefined'
+alias fastfetch="fastfetch -l asahi && fastfetch -l fedora && fastfetch -l bedrock && fastfetch -l arch"
 source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 
-#pour la veille
-swayidle -w \
-	timeout 300 'swaylock -f -c 000000' \
-	timeout 600 'swaymsg "output * dpms off"' \
-		resume 'swaymsg "output * dpms on"' \
-	before-sleep 'swaylock -f -c 000000'
+
 
 # BEGIN opam configuration
 # This is useful if you're using opam as it adds:
