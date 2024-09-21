@@ -7,10 +7,13 @@ mkdir /home/jvj/wallpaper
 #                    #
 ######################
 
+Total=100
 nb_leg=1
 legendary=1
+nb_Rare=0
+rare=10
 nb_com=2
-commun=$(( ( 100 - $legendary * $nb_leg) / $nb_com ))
+commun=$(( ( $Total - $legendary * $nb_leg - $rare * $nb_Rare) / $nb_com ))
 
 ######################
 #                    #
@@ -49,7 +52,10 @@ if [[ $1 == "-d" ]];then
 echo "—————————————————————————
 nombre de legendaire : $nb_leg
 Rareté legendaire : $legendary
+nombre de commun : $nb_Rare
+Rareté commun : $rare
 nombre de commun : $nb_com
 Rareté commun : $commun
+Total : $Total
 —————————————————————————"
 fi
