@@ -19,35 +19,34 @@ commun=$(( ( 100 - $legendary * $nb_leg) / $nb_com ))
 ######################
 
 #you destroy the fabirc of spacetime
-
 for i in $(seq $legendary)
 do
     if [[ $1 == "-d" ]];then
-        echo "print OuterWilds - fabicdeleted : $i"
+        echo "OuterWilds - fabicdeleted : $i"
     fi
-    cp /home/jvj/wallpaperperm/OuterWilds/fabicdeleted.jpg /home/jvj/wallpaper/fabicdeleted_$i.jpg
+    ln -s /home/jvj/wallpaperperm/OuterWilds/fabicdeleted.jpg /home/jvj/wallpaper/fabicdeleted_$i.jpg
 done
 
 #New space time
 for i in $(seq $commun)
 do
     if [[ $1 == "-d" ]];then
-        echo "print OuterWilds - NewSpaceTime : $i"
+        echo "OuterWilds - NewSpaceTime : $i"
     fi
-    cp /home/jvj/wallpaperperm/OuterWilds/NewSpaceTime.png /home/jvj/wallpaper/NewSpaceTime_$i.png 
+    ln -s /home/jvj/wallpaperperm/OuterWilds/NewSpaceTime.png /home/jvj/wallpaper/NewSpaceTime_$i.png 
 done
 
 #Solar system
 for i in $(seq $commun)
 do
     if [[ $1 == "-d" ]];then
-        echo "print OuterWilds - Solarsyi : $i"
+        echo "OuterWilds - Solarsyi : $i"
     fi
-    cp /home/jvj/wallpaperperm/OuterWilds/O_SolarSyi.jpg /home/jvj/wallpaper/O_SolarSyi_$i.jpg
+    ln -s /home/jvj/wallpaperperm/OuterWilds/O_SolarSyi.jpg /home/jvj/wallpaper/O_SolarSyi_$i.jpg
 done
 
 if [[ $1 == "-d" ]];then
-    echo "—————————————————————————
+echo "—————————————————————————
 nombre de legendaire : $nb_leg
 Rareté legendaire : $legendary
 nombre de commun : $nb_com
