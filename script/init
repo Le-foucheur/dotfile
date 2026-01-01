@@ -10,7 +10,7 @@ wait_waybar () {
 }
 
 # Per computer processus
-#gammastep& # Blue light reducer
+gammastep& # Blue light reducer
 bluetoothctl power off # power off bluetooth at startup
 
 # Start other processus

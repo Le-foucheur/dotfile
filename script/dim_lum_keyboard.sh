@@ -2,14 +2,14 @@
 #augmente la luminosité de arg%, 10% si non spécifié
 #retourne le % de luminosité en fin de commande
 
-max=$(cat /sys/class/backlight/apple-panel-bl/max_brightness)
+max=$(cat /sys/class/leds/kbd_backlight/max_brightness)
 if [ -n "$1" ]
 then
 	dim=$1
 else
 	dim=10
 fi
-next=$(expr $(cat /sys/class/backlight/apple-panel-bl/subsystem/apple-panel-bl/brightness) - $max '*' "$dim" '/' 100)
+next=$(expr $(cat /sys/class/leds/kbd_backlight/brightness) - $max '*' "$dim" '/' 100)
 if [ -z "$next" ]
 then
 	exit 1
@@ -18,5 +18,5 @@ if [ $next -lt 0 ]
 then
 	next=0
 fi	
-echo $next > /sys/class/backlight/apple-panel-bl/subsystem/apple-panel-bl/brightness
+echo $next > /sys/class/leds/kbd_backlight/brightness
 echo $(expr $next "*" 100 "/" $max)

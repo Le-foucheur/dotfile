@@ -1,51 +1,67 @@
-rm -r /home/jvj/wallpaper/
-mkdir /home/jvj/wallpaper
+rm -r "/home/jvj/wallpaper/"
+mkdir -p "/home/jvj/wallpaper"
 
 ######################
 #                    #
-#       Rarity       #
+#      Parametre     #
 #                    #
 ######################
+
+listLeg=("OuterWilds/fabicdeleted.jpg")
+listrare=("minecraft/terralith-1.png")
+listcomm=("OuterWilds/NewSpaceTime.png" "OuterWilds/O_SolarSyi.jpg")
 
 Total=100
-nb_leg=1
+nb_leg=${#listLeg[@]}
 legendary=1
-nb_Rare=0
+nb_Rare=${#listrare[@]}
 rare=10
-nb_com=2
+nb_com=${#listcomm[@]}
 commun=$(( ( $Total - $legendary * $nb_leg - $rare * $nb_Rare) / $nb_com ))
 
 ######################
 #                    #
-#     Outer Wilds    #
+#  création symlink  #
 #                    #
 ######################
 
-#you destroy the fabirc of spacetime
-for i in $(seq $legendary)
+#Legendaire
+for j in "${listLeg[@]}"
 do
-    if [[ $1 == "-d" ]];then
-        echo "OuterWilds - fabicdeleted : $i"
-    fi
-    ln -s /home/jvj/wallpaperperm/OuterWilds/fabicdeleted.jpg /home/jvj/wallpaper/fabicdeleted_$i.jpg
+    mkdir -p "/home/jvj/wallpaper/$(echo "$j" | rev | cut -d "/" -f 2- | rev)"
+    for i in $(seq $legendary)
+    do
+        if [[ $1 == "-d" ]];then
+            echo "$j : $i"
+        fi
+        ln -sf "/home/jvj/wallpaperperm/$j" "/home/jvj/wallpaper/$(echo $j | cut -d "." -f 1)_$i"
+    done
 done
 
-#New space time
-for i in $(seq $commun)
+#Rare
+for j in "${listrare[@]}"
 do
-    if [[ $1 == "-d" ]];then
-        echo "OuterWilds - NewSpaceTime : $i"
-    fi
-    ln -s /home/jvj/wallpaperperm/OuterWilds/NewSpaceTime.png /home/jvj/wallpaper/NewSpaceTime_$i.png 
+    mkdir -p "/home/jvj/wallpaper/$(echo "$j" | rev | cut -d "/" -f 2- | rev)"
+    for i in $(seq $rare)
+    do
+        if [[ $1 == "-d" ]];then
+            echo "$j : $i"
+        fi
+        ln -sf "/home/jvj/wallpaperperm/$j" "/home/jvj/wallpaper/$(echo $j | cut -d "." -f 1)_$i"
+    done
 done
 
-#Solar system
-for i in $(seq $commun)
+#Commun
+for j in "${listcomm[@]}"
 do
-    if [[ $1 == "-d" ]];then
-        echo "OuterWilds - Solarsyi : $i"
-    fi
-    ln -s /home/jvj/wallpaperperm/OuterWilds/O_SolarSyi.jpg /home/jvj/wallpaper/O_SolarSyi_$i.jpg
+    mkdir -p "/home/jvj/wallpaper/$(echo "$j" | rev | cut -d "/" -f 2- | rev)"
+    for i in $(seq $commun)
+    do
+        if [[ $1 == "-d" ]];then
+            echo "$j : $i"
+        fi
+        ln -sf "/home/jvj/wallpaperperm/$j" "/home/jvj/wallpaper/$(echo $j | cut -d "." -f 1)_$i"
+    done
 done
 
 if [[ $1 == "-d" ]];then
@@ -57,5 +73,9 @@ Rareté commun : $rare
 nombre de commun : $nb_com
 Rareté commun : $commun
 Total : $Total
+
+liste legendaire : ${listLeg[@]}
+liste Rare : ${listrare[@]}
+liste Commun : ${listcomm[@]}
 —————————————————————————"
 fi

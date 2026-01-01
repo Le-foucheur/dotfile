@@ -69,19 +69,28 @@ bindkey '\e[1;5A' sudo-previous
 # alias
 alias sway="~/script/init-sway"
 alias ls="eza --icons auto"
+alias sl="sl; eza --icons auto"
+alias cd=z
+comprdiap () {
+	gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook \
+-dNOPAUSE -dQUIET -dBATCH -sOutputFile=$2 $1
+}
 
 #env
 export XKB_DEFAULT_LAYOUT=fr
 export PROMPT='%(!.%F{red}.%F{green})[%F{cyan}%5~%(?.. %F{red}%?)%(!.%F{red}.%F{green})]%f%(!.%F{red}#.%F{green}>)%f'
+export EDITOR=code
 #wayland
 export MOZ_ENABLE_WAYLAND=1
 export MOZ_DBUS_REMOTE=1
 
 export QT_QPA_PLATFORM="wayland;xcb"
+export QT_DEBUG_PLUGINS=1
 export QT_QPA_PLATFORM_PLUGIN_PATH=/usr/lib/qt/plugins
 export CLUTTER_BACKEND=wayland
 export SDL_VIDEODRIVER=wayland
 export GTK_THEME=Adwaita:dark
+export HELIX_RUNTIME=/home/jvj/install/helix/runtime
 export GDK_BACKEND=wayland
 
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
@@ -94,12 +103,14 @@ if [[ $TERM = "alacritty" ]]; then # Load modules only in alacritt y, not in TT
 	[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 fi
 
-alias deezer="deezer-enhanced --enable-features=UseOzonePlatform --ozone-platform=wayland"
-alias fastfetch="fastfetch -l arch"
+alias deezer="deezer-enhanced.js --enable-features=UseOzonePlatform --ozone-platform=wayland"
 alias circuit="circuitjs1-electron"
-alias gccsafe='gcc -g -Wall -Wextra -std=c99 -fsanitize=address,undefined'
-alias fastfetch="fastfetch -l asahi && fastfetch -l fedora && fastfetch -l bedrock && fastfetch -l arch"
+alias gcafe='gcc -g -Wall -Wextra -std=c99 -fsanitize=address,undefined'
+alias fastfetch="~/Rust/fastfeth/target/release/fastfeth"
+alias wifi='watch -c -n 0.1 "nmcli -colors yes d w l"'
+alias cat=bat
 source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
+source ~/.zoxide
 
 
 
@@ -110,3 +121,9 @@ source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 # This section can be safely removed at any time if needed.
 [[ ! -r '/home/jvj/.opam/opam-init/init.zsh' ]] || source '/home/jvj/.opam/opam-init/init.zsh' > /dev/null 2> /dev/null
 # END opam configuration
+
+#atuin
+eval "$(atuin init zsh)"
+
+#alias pour les app x86 avec muvm
+alias Vial='muvm -- "/home/jvj/install/vial/Vial-v0.7.3-x86_64.AppImage"'
